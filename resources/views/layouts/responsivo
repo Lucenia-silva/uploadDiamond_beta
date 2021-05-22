@@ -1,0 +1,731 @@
+
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="">
+
+<header class="header">
+    <div class="top_bar">
+        <div class="conteinar ">
+        <div class="row ">
+                <div class="col-3 topbar">
+                    <ul style="margin-left:-70rem">
+                        <li><a href="">Diamond</a></li>
+                        <li><a href="">Job</a></li>
+                        <li><a href="">Tribune</a></li>
+                        <li><a href="">World Revil</a></li>
+
+                    </ul>
+                </div>
+                    <div class="col-2"></div>
+                <div class="col-6">
+            <ul style="color: #ffffff">
+                <li><a href=""></a></li>
+                <li><a href="">Subscribe</a></li>
+                <li>
+                    <a href="https://web.facebook.com/ReviewDiamondAfrica" class="facebook" target="_blank">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/diamondreviewafrica/" class="pinterest" target="_blank">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/the-diamond-review-africa/" class="pinterest" target="_blank">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/review_diamond" class="twitter" target="_blank">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/" class="linkedin" target="_blank">
+                        <i class='bx bxl-youtube'></i>
+                    </a>
+                </li>
+                <li><a href="">Login</a>
+                </li>
+                <li>
+                    <li><a href=""><i class='bx bx-user'></i></a></li>
+
+
+             </li>
+           </ul>
+        </div>
+    </div>
+    <hr style="width:82rem; margin-left:5rem;margin-top:0em;color:#ffffff">
+
+
+
+
+    <img src="img/logo/Diamond/2.png" alt="" style="width:30%;margin-left: 32rem;height:auto;margin-bottom:">
+
+
+    <div class="row banner1" style="">
+
+       <div class="row" style="background:#0000;height:2rem">
+        <div class="col-1" >
+
+        </div>
+        <div class="col-9" >
+            <ul style="margin-right:5%;text-align-center">
+                <li>
+                    <a href=""><p>&nbsp;| Exclusives</p></a>
+                </li>
+                <li>
+                    <a href=""><p>&nbsp;| Exclusives</p></a>
+                </li>
+                <li>
+                    <a href=""><p>&nbsp;| Weekly</p></a>
+                </li>
+                <li>
+                    <a href=""><p>&nbsp;| Exclusives</p></a>
+                </li>
+                <li>
+                    <a href=""><p>&nbsp;| Weekly</p></a>
+                </li>
+                <li>
+                    <a href=""><p>&nbsp;| Exclusives</p></a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-1" >
+
+        </div>
+    </div>
+
+</header>
+     <!--<div class="menu_bar">
+                   <ul>
+                   <input type="checkbox" id="check">
+                        <label for="check" class="ckeckbtn ">
+                            <i class="fas fa-bars"></i>
+                        </label>
+
+
+                        <li>
+                            <a href="/" class="">Home</a>
+                        </li>
+
+
+
+
+
+        <div class="conteinar">
+   </ul>-->
+
+                  <!-- <nav class="menu_bar">
+                        <div class="wrapper">
+                            <ul class="nav-links">
+
+                                <li class="">
+                                    <a href="/">
+                                        HOME
+                                    </a>
+                                </li>
+                               <!-- <li>
+                                    <a href="#" class="dropdown-toggle">INTERNACIONAL</a>
+                                        <div class="mega-box">
+                                       <div class="content">
+                                            <div class="row">
+                                                <h5>Teses</h5>
+
+                                                <ul class="mega-links">
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="row">
+                                                <h5>Preperation</h5>
+                                                <ul class="mega-links">
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="row">
+                                                <h5>Security</h5>
+                                                <ul class="mega-links">
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="row">
+                                                <h5>Desigenr</h5>
+                                                <ul class="mega-links">
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                </ul>
+                                            </div>
+                                       </div>
+                                        </div>
+                                </li>
+
+                             @if ($categorias != null)
+                                @foreach ($categorias as $categoria)
+                                    <li class="">
+                                        <a class=""
+                                            href="{{ route('menu', $categoria->cat_id) }}">{{ $categoria->titulo }}</a>
+                                    </li>
+                                @endforeach
+                            @endif
+                               <!-- <li><a href="">dropmenu</a>
+                                    <ul class="drop-menu">
+                                        <li><a href="">1</a></li>
+                                        <li><a href="">1</a></li>
+                                        <li><a href="">1</a></li>
+                                        <li><a href="">1</a></li>
+
+                                    </ul>
+                                </li>
+
+
+                                <form class="navbar-form navbar-left" role="search">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Search"  style="margin-top: 10px" >
+                                    </div>
+                                    <i class="fa fa-search" style="float: left;margin-left:11rem;margin-top:-10%"></i>
+
+                                </form>
+                            </ul>
+
+                        </div>
+
+            </nav>-->
+
+
+
+
+
+                  <nav class="menu_bar">
+                    @include('layouts.lastnews')
+
+                    <div class="menulateral"> <span class="material-icons">Close</span>
+                        <ul>
+                            <li><a href="">1</a></li>
+                            <li><a href="">2</a></li>
+                            <li><a href="">3</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="wrapper">
+                        <ul class="nav-links">
+                            <li class="">
+                                <a href="/">
+                                   1 Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-toggle">MegaMenu</a>
+                                    <div class="mega-box">
+                                   <div class="content">
+                                    <div class="row">
+                                        <div class="mega-links">
+                                    </div>
+                                    </div>
+                                    <div class="row">
+
+                                        <h5>Teses</h5>
+                                        <ul class="mega-links">
+                                            <li><a href="">Últimas</a></li>
+                                            <li><a href="">Política</a></li>
+                                            <li><a href="">Sociedade</a></li>
+                                            <li><a href="">Economia</a></li>
+                                            <li><a href="">Cultura</a></li>
+                                            <li><a href="">Internacional</a></li>
+                                        </ul>
+                                    </div>
+                                        <div class="row">
+                                            <div class="mega-links">
+                                            <img src="img/main-news/2.jpg" alt="image" style="width:11rem">
+                                            <p> <a href="">
+                                              linguística, a noção de texto é ampla e ainda aberta a uma</a>
+                                        </p>
+                                        </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="mega-links">
+                                                <img src="img/main-news/2.jpg" alt="image" style=" width:11rem ">
+                                                <p> <a href="">linguística, a noção de texto é ampla e ainda aberta a uma . </a></p>
+
+                                        </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="mega-links">
+                                            <img src="img/main-news/2.jpg" alt="image" style=" width:11rem">
+                                            <p> <a href="">linguística, a noção de texto é ampla e ainda aberta a uma .</a></p>
+
+                                        </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="mega-links">
+                                                <img src="img/main-news/2.jpg" alt="image" style="width:11rem ">
+                                                <p> <a href="">linguística, a noção de texto é ampla e ainda aberta a uma .</a></p>
+
+                                        </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="mega-links">
+                                            <img src="img/main-news/2.jpg" alt="image" style="width:11rem">
+                                            <p><a href=""> linguística, a noção de texto é ampla e ainda aberta a uma .</a></p>
+
+                                        </div>
+                                        </div>
+
+
+                                   </div>
+                                    </div>
+                            </li>
+
+                            @if ($categorias != null)
+                            @foreach ($categorias as $categoria)
+                                <li class="">
+                                    <a class=""
+                                        href="{{ route('menu', $categoria->cat_id) }}">{{ $categoria->titulo }}</a>
+                                </li>
+                            @endforeach
+                        @endif
+                           <!-- <li><a href="">dropmenu</a>
+                                <ul class="drop-menu">
+                                    <li><a href="">1</a></li>
+
+
+                                </ul>
+                            </li>-->
+
+
+                            <form class="navbar-form navbar-left" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search"  style=" width:50;margin-top:px;margin-left:5rem" >
+                                </div>
+                                <i class="fa fa-search" style="float: left;margin-left:20rem;margin-top:-10%"></i>
+
+                            </form>
+                        </ul>
+                    </div>
+            </nav>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+<main>
+
+</main>
+
+<style>
+
+/* HERE IS TOP*/
+
+hr{
+  width:82rem;
+   margin-left:5rem;
+   margin-top:0em;
+   color:#ffffff;
+
+}
+    .banner1{
+    height:120px;
+    margin-bottom:0.1rem;
+    }
+    .banner1 ul li a p{
+    font-size: 1.5rem;
+    color: rgba(204, 204, 204, 0.808);
+    margin-top: 2.5rem;
+    font-family: roboto, sans-serif;
+    flex-wrap: wrap;
+    font-weight: normal;
+    text-transform: uppercase;
+
+    }
+    .header{
+        width: 100%;
+        display: block;
+    }
+    .top_bar{
+        width: 100%;
+        display: block;
+    }
+    .conteinar{
+        width: 100%;
+        margin: auto;
+        padding:auto;
+        flex-wrap: wrap;
+        background-image: url("../../img/logo/banner.jpg");
+        background-size: cover;
+        flex-wrap: wrap;
+    }
+    .top_bar .conteinar ul{
+        list-style: none;
+        display: flex;
+        justify-content:flex-end;
+        flex-wrap: wrap;
+    }
+    .top_bar .conteinar ul li a{
+        display: block;
+        padding: 5px 5px;
+        color: #fff;
+        font-size: .9rem;
+        text-decoration: none;
+        transition: .3s;
+        margin-top: 3px;
+    }
+    .top_bar .conteinar .topbar ul li a{
+        color: rgba(204, 204, 204, 0.808);
+
+    }
+    .top_bar .conteinar ul li a:hover{
+        color: #ffff;
+    }
+    /*HERE IS MENU*/
+    nav{
+        background: #ae221c;
+        position: relative ;
+        z-index: 999;
+        width: 100%;
+        /*height: 65px;*/
+        line-height: 25px;
+    }
+
+/*nav .wrapper{
+max-width:1250px;
+padding: 0 30px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+text-decoration: none;
+}*/
+    .wrapper .nav-links{
+    display: inline-flex;
+    margin-top: 1rem;
+    }
+    .nav-links li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500px;
+        padding: 1px 8px;
+        background-color:;
+    }
+
+    .nav-links li{
+        list-style: none;
+    }
+    .nav-links .drop-menu{
+        background:#242526;
+        width: 180px;
+        top: 85px;
+        line-height: 56px;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .nav-links li:hover .drop-menu,
+    .nav-links li:hover .mega-box{
+    top: 65px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease;
+    }
+        .drop-menu li a{
+            width: 100%;
+            display: block;
+            padding: 0 0 0 15px;
+            font-weight: 400;
+            border-radius: 0px;
+        }
+    .nav-links li:hover .drop-menu{
+        top: 65px;
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.3s ease;
+    }
+    /*MENU BAR*/
+    .menu_bar{display: block;
+        z-index: 100;}
+
+    .menu_bar .conteinar{display: flex;
+    }
+    .menu_bar.nav-links.row img{
+       display: flex;
+       flex-wrap: wrap;
+       cursor: pointer;
+    }
+.menu_bar nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+}
+.menu_bar  ul li a:hover{
+color:#cccc;
+background-color: #
+}
+.FixoNoTopo{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    transition: .1s;
+}
+
+/*HERE IS BIGMENU OR MEGAMENU*/
+
+    .mega-box{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+.mega-box .content{
+    padding: 25px 20px;
+    margin-top: 2.5rem;
+    display: flex;
+    width: 100%;
+    background-color:#005588;
+}
+.mega-box .content .row{
+    width: calc(25% - 30px);
+    line-height: 35px;
+    text-align: left;
+
+}
+.mega-box .content .row .mega-links p a{
+    color: #ffffff;
+    text-align: left;
+    font-size: 14px
+}
+.mega-box .content .row .mega-links p a :hover{
+   background-color: #ae221c;
+   text-decoration: #7d3b97;
+
+}
+.content .row .mega-links{
+    margin-left: -40px;
+    border-left: 1px solid rgba(255,255,255,0.09);
+}
+.content .row:nth-child(1),
+.content .row:nth-child(2){
+  border-left:0px;
+}
+.mega-box .content .row h5{
+    color: #ffff;
+    font-size: 14pt;
+    width: auto;
+    height: auto;
+    background-color: #7d3b97;
+}
+.mega-box .content .row h5:hover{
+    background-color: #ae221c;
+}
+.row .mega-links li{
+    padding: 0 20px;
+}
+.row .mega-links li a{
+    padding: 0 20px;
+    color: #ffff;
+    font-size: 14px;
+    display: block;
+}
+.row .mega-links li a:hover{
+    color: #f2f2f2
+}
+
+
+
+
+
+/*HIMURGER*/
+
+
+
+/*OUTROS*/
+.textos img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+<script>
+
+/*AQUI ESTA A FUNCAO DO MENU */
+const nav = document.getElementsByClassName("menu_bar")[0];
+const topoNav = nav.offsetTop;
+window.onscroll = function(){
+    fixarMenuNoTopo();
+}
+function fixarMenuNoTopo(){
+    if(window.pageYOffset >= topoNav){
+        nav.classList.add("FixoNoTopo");
+    }else{
+        nav.classList.remove("FixoNoTopo");
+    }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu {
+    /*background: white;
+    border-radius: 50%;
+
+    height: 60px;
+    position: fixed;
+    left: 25px;
+    z-index: 1;*/
+    width: 60px;
+}
+
+.hamburguer {
+    position: relative;
+    display: block;
+    background: #000;
+    width: 30px;
+    height: 2px;
+    top: 19px;
+    left: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.hamburguer:before,
+.hamburguer:after {
+    background: #000;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+.hamburguer:before {
+    top: -10px;
+}
+
+.hamburguer:after {
+    bottom: -10px;
+}
+
+input {
+    display: none;
+}
+
+input:checked~label .hamburguer {
+    transform: rotate(45deg);
+}
+
+input:checked~label .hamburguer:before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+input:checked~label .hamburguer:after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+.barra {
+    background-color: #333;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    transition: all .2s linear;
+    left: -287px;
+    margin-top: 3.3rem;
+}
+
+#check:checked~.barra {
+    transform: translateX(300px);
+}
+
+.itens {
+    margin-top: 100px;
+}
+
+.item {
+    height: 100px;
+    width: 300px;
+    background-color: #9999;
+}
+
+
